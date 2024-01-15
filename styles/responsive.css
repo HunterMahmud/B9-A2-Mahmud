@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    /* body{
+        padding: 20px;
+    } */
+  .nav-links {
+    display: none;
+  }
+  .banner-search {
+    flex-direction: column;
+    max-width: 500px;
+  }
+}
