@@ -3,6 +3,9 @@
   .nav-links {
     display: none;
   }
+  .toggle{
+    display: block;
+  }
   .banner-search {
     flex-direction: column;
     max-width: 500px;
