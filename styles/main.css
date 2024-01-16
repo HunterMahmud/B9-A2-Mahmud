@@ -101,7 +101,7 @@
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url('/Images/Rectangle\ 5.png'), lightgray 50%;
+    url('../Images/Rectangle\ 5.png'), lightgray 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -113,7 +113,7 @@
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url("/Images/Rectangle\ 8.png"), lightgray 50%;
+    url("../Images/Rectangle\ 8.png"), lightgray 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -124,7 +124,7 @@
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url("/Images/Rectangle\ 6.png"), lightgray 50%;
+    url("../Images/Rectangle\ 6.png"), lightgray 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -135,7 +135,7 @@
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url("/Images/Rectangle\ 7.png"), lightgray 50%;
+    url("../Images/Rectangle\ 7.png"), lightgray 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -146,7 +146,7 @@
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url("/Images/Rectangle\ 9.png"), lightgray 50%;
+    url("../Images/Rectangle\ 9.png"), lightgray 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -157,7 +157,7 @@
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url("/Images/Rectangle\ 11.png"), lightgray 50%;
+    url("../Images/Rectangle\ 11.png"), lightgray 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -168,7 +168,7 @@
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url("/Images/Rectangle\ 10.png"), lightgray 50%;
+    url("../Images/Rectangle\ 10.png"), lightgray 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
