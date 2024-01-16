@@ -390,6 +390,18 @@ footer > hr {
   margin: 30px auto;
   max-width: 700px;
 }
+.feedback-name {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 10px auto;
+}
+.feedback-description {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
 
 .feedback-img {
   width: 100px;
