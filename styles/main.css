@@ -43,3 +43,132 @@
   font-size: 1rem;
   font-weight: 800;
 }
+/* Choose our destination section styles here */
+.choose-destination {
+  max-width: 1250px;
+  margin: 70px auto;
+}
+
+.destination {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.destination-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 25px auto;
+}
+.destination-des {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.choose-place {
+  margin-top: 70px;
+}
+.row {
+  display: grid;
+  gap: 2%;
+  height: 300px;
+}
+.row1 {
+  grid-template-columns: 49% 49%;
+  margin-bottom: 20px;
+}
+.row2 {
+  grid-template-columns: 29% calc(47% - 2%) 22%;
+  margin-bottom: 20px;
+}
+
+.row3 {
+  grid-template-columns: 39% 59%;
+  margin-bottom: 20px;
+}
+.maldives {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("/Images/Rectangle\ 5.png"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.indonesia {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("/Images/Rectangle\ 8.png"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.srilanka {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("/Images/Rectangle\ 6.png"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.north-america {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("/Images/Rectangle\ 7.png"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kashmir {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("/Images/Rectangle\ 9.png"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bangladesh {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("/Images/Rectangle\ 11.png"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bandarban {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("/Images/Rectangle\ 10.png"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

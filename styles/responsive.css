@@ -18,5 +18,15 @@
   .img-container {
     width: 100%;
   }
+  /* Choose your destination section styles */
+  
+  .row{
+    display: block;
+    height: auto;
+  }
+  .destination{
+    height: 300px;
+    margin-bottom: 20px;
+  }
   
 }
