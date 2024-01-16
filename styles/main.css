@@ -232,6 +232,103 @@
   font-weight: 400;
   line-height: 26px;
 }
+/* Deals and Discount section styles */
+.deals-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.deals {
+  max-width: 1250px;
+  margin: 70px auto;
+}
+.deals-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.deals-des {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 25px;
+}
+.deals-info {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+  margin: 30px auto;
+  max-width: 700px;
+}
+
+.deals-items {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.deals-where {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.deals-summary {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.deals-price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+.deals-items > li {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.primary-color {
+  color: #ff5400;
+}
+.deals-discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  gap: 20px;
+  width: 100%;
+  border-radius: 16px;
+  background: url("../Images/Group\ 39.png"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+#deals-discount{
+  transform: scaleX(-1);
+}
+
+.deals-book {
+  padding: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  right: 40px;
+  width: 90%;
+  max-width: 450px;
+  max-height: 470px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+#deals-book {
+  transform: scaleX(-1);
+} 
+
 /* A perfect place to get lost styels */
 .video-container {
   width: 50%;
@@ -244,7 +341,7 @@
 }
 .video-container > video {
   width: 100%;
-  height: auto;
+  height: 90%;
   border-radius: 16px;
   object-fit: cover;
 }

@@ -21,6 +21,9 @@
   .img-container {
     width: 100%;
   }
+  .video-container{
+    width: 100%;
+  }
   /* Choose your destination section styles */
   
   .row{
@@ -37,6 +40,17 @@
   }
   .choose-for {
     width: 100%;
+  }
+  /* Deals and discounts section styles */
+  .deals-book{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  #deals-book{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
   /* newsletter section styles */
   .newsletter{
