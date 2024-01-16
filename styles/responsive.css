@@ -28,5 +28,12 @@
     height: 300px;
     margin-bottom: 20px;
   }
+  /* Why choose us section styles */
+  .choose-why {
+    display: block;
+  }
+  .choose-for {
+    width: 100%;
+  }
   
 }
