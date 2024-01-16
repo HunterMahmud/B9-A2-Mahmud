@@ -1,0 +1,45 @@
+/* our popular tours section styles */
+
+.tours {
+  display: flex;
+  max-width: 1250px;
+  margin: 70px auto;
+  gap: 4%;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  gap: 20px;
+}
+.img-container {
+  width: 48%;
+}
+.info-details {
+  padding-left: 20px;
+}
+.info-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.info-des,
+.info-details {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.img-container > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+#btn-readmore {
+  width: 170px;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+}

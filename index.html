@@ -12,7 +12,9 @@
       referrerpolicy="no-referrer"
     />
     <title>Bengal Travel</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
   </head>
   <body>
@@ -46,21 +48,58 @@
           </p>
         </div>
         <div class="banner-search">
-            <input class="choose" type="text" placeholder="Where go" >
-            <select  class="choose">
-                <option value="">When</option>
-                <!-- <option value=""></option> -->
-            </select>
-            <select class="choose">
-                <option value="">Select Type</option>
-                <!-- <option value=""></option> -->
-            </select>
-            <button id="btn-find" class="btn-primary" type="submit">Find Now</button>
+          <input class="choose" type="text" placeholder="Where go" />
+          <select class="choose">
+            <option value="">When</option>
+            <!-- <option value=""></option> -->
+          </select>
+          <select class="choose">
+            <option value="">Select Type</option>
+            <!-- <option value=""></option> -->
+          </select>
+          <button id="btn-find" class="btn-primary" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>  Find Now
+          </button>
         </div>
       </div>
       <!-- banner section ends here -->
     </header>
-    <main></main>
+    <main>
+      <section class="tours">
+        <div class="info-container">
+          <h2 class="info-title">Our Popular Tours</h2>
+          <p class="info-des">
+            Embark on a lifetime journey with Bengal Travel's tours, promising
+            captivating experiences. Delve into vibrant cultures, marvel at
+            scenic landscapes, and indulge in thrilling adventures for an
+            unforgettable travel experience.
+          </p>
+          <ul class="info-details">
+            <li>
+              Discover Cultures: Delve into vibrant traditions, exploring
+              ancient sites and lively markets.
+            </li>
+            <li>
+              Experience Scenic Wonders: Marvel at awe-inspiring landscapes,
+              from serene beaches to majestic mountains.
+            </li>
+            <li>
+              Thrilling Adventures Await: Indulge in adrenaline-pumping
+              activities like hiking and water sports.
+            </li>
+          </ul>
+          <p class="info-des">
+            Bengal Travel crafts every tour for the perfect blend of discovery
+            and relaxation. Join us on transformative journeys, creating
+            memories that last a lifetime.
+          </p>
+          <button id="btn-readmore" class="btn-primary">Read More</button>
+        </div>
+        <div class="img-container">
+          <img src="./Images/Rectangle 4.png" alt="">
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

@@ -34,10 +34,13 @@ body{
   padding: 40px 0px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-logo-title {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
 }
 .nav-logo {
   height: 45px;
@@ -50,6 +53,7 @@ body{
 }
 .nav-links {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 40px;
 }
