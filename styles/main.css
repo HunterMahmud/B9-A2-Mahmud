@@ -232,6 +232,22 @@
   font-weight: 400;
   line-height: 26px;
 }
+/* A perfect place to get lost styels */
+.video-container {
+  width: 50%;
+}
+.info-details > li > b {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.video-container > video {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
 
 /* newsletter section styles */
 .newsletter {
