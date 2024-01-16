@@ -101,7 +101,7 @@
       rgba(19, 19, 24, 0.2) 0%,
       rgba(19, 19, 24, 0.2) 100%
     ),
-    url("/Images/Rectangle\ 5.png"), lightgray 50%;
+    url('/Images/Rectangle\ 5.png'), lightgray 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
