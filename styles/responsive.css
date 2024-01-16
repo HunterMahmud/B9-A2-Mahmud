@@ -35,5 +35,15 @@
   .choose-for {
     width: 100%;
   }
-  
+  /* newsletter section styles */
+  .newsletter{
+    display: block;
+  }
+  .newsletter-subscribe {
+    width: 100%;
+  }
+  .newsletter-img {
+    width: 100%;
+    margin-top: 25px;
+  }
 }
